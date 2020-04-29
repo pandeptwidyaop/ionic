@@ -1,6 +1,6 @@
 {
-  "appId": "com.btw-cat.test",
-  "appName": "TEST APP",
+  "appId": "io.ionic.starter",
+  "appName": "ionic-react",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "build",
