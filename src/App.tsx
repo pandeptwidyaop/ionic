@@ -11,8 +11,6 @@ import {
   IonItem,
   IonLabel,
   IonInput,
-  IonCard,
-  IonCardContent,
   IonAlert,
 } from "@ionic/react";
 
@@ -68,7 +66,6 @@ const App: React.FC = () => {
     const weight: number = +enteredWeight / weightFactor;
 
     const bmi: number = weight / (height * height);
-    console.log(bmi);
 
     setBMI(bmi);
   };
